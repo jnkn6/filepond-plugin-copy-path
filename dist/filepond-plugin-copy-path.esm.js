@@ -36,7 +36,6 @@ const getCopyIcon = (labelCopyPath) => {
  * Triggered when icon clicked. Copy uploaded file path at clipboard
  */
 const copyPath = (item, copyRelativePath, alertCopyPath, server) => {
-  console.log(server);
   let urlBase = server.url;
   let path = server.load.url;
   let url = '';

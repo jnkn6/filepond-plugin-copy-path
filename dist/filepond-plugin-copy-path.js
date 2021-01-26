@@ -45,7 +45,6 @@
    */
 
   const copyPath = (item, copyRelativePath, alertCopyPath, server) => {
-    console.log(server);
     let urlBase = server.url;
     let path = server.load.url;
     let url = '';
