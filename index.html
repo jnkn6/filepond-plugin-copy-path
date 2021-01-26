@@ -46,12 +46,17 @@
         );
 
         FilePond.setOptions({
-            allowDrop: true,
-            // allowReplace: true,
-            // instantUpload: true,
             server: {
+                // This URL will be used by copypath plugin
                 url: 'https://jnkn6.github.io/filepond-plugin-copy-path',
-                load: '/load/'
+
+                // This code simulates uploading image to server and getting serverID
+                process: (fieldName, file, metadata, load, error, progress, abort, transfer, options) => {
+                    load("my_image_file.jpg");
+                },
+
+                // This path will be used by copypath plugin
+                load: '/custom_load_path/'
             }
         });
 
