@@ -1,0 +1,22 @@
+/*!
+ * FilePondPluginCopyPath 1.0.0
+ * Licensed under MIT, https://opensource.org/licenses/MIT/
+ * Please visit https://github.com/jnkn6/filepond-plugin-copy-path#readme for details.
+ */
+/* eslint-disable */
+.filepond--copypath-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  vertical-align: bottom;
+  margin-right: 0.5em;
+  -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiICB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgIDxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik00IDdWMjFIMThWMjNINEMyLjkgMjMgMiAyMi4xIDIgMjFWN0g0TTIwIDNDMjEuMSAzIDIyIDMuOSAyMiA1VjE3QzIyIDE4LjEgMjEuMSAxOSAyMCAxOUg4QzYuOSAxOSA2IDE4LjEgNiAxN1Y1QzYgMy45IDYuOSAzIDggM0gxMS4xOEMxMS42IDEuODQgMTIuNyAxIDE0IDFDMTUuMyAxIDE2LjQgMS44NCAxNi44MiAzSDIwTTE0IDNDMTMuNDUgMyAxMyAzLjQ1IDEzIDRDMTMgNC41NSAxMy40NSA1IDE0IDVDMTQuNTUgNSAxNSA0LjU1IDE1IDRDMTUgMy40NSAxNC41NSAzIDE0IDNNMTAgN1Y1SDhWMTdIMjBWNUgxOFY3SDEwWiIgLz4KPC9zdmc+');
+  mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjEiICB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+CiAgIDxwYXRoIGZpbGw9IiMwMDAwMDAiIGQ9Ik00IDdWMjFIMThWMjNINEMyLjkgMjMgMiAyMi4xIDIgMjFWN0g0TTIwIDNDMjEuMSAzIDIyIDMuOSAyMiA1VjE3QzIyIDE4LjEgMjEuMSAxOSAyMCAxOUg4QzYuOSAxOSA2IDE4LjEgNiAxN1Y1QzYgMy45IDYuOSAzIDggM0gxMS4xOEMxMS42IDEuODQgMTIuNyAxIDE0IDFDMTUuMyAxIDE2LjQgMS44NCAxNi44MiAzSDIwTTE0IDNDMTMuNDUgMyAxMyAzLjQ1IDEzIDRDMTMgNC41NSAxMy40NSA1IDE0IDVDMTQuNTUgNSAxNSA0LjU1IDE1IDRDMTUgMy40NSAxNC41NSAzIDE0IDNNMTAgN1Y1SDhWMTdIMjBWNUgxOFY3SDEwWiIgLz4KPC9zdmc+');
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-size: 100%;
+  mask-size: 100%;
+  background-color: #fff;
+  cursor: pointer;
+  pointer-events: auto;
+}
