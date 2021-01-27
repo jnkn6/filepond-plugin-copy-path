@@ -1,6 +1,6 @@
 {
   "name": "filepond-plugin-copy-path",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Filepond plugin which copies uploaded file path.",
   "main": "dist/filepond-plugin-copy-path.js",
   "browser": "dist/filepond-plugin-copy-path.js",
