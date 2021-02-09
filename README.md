@@ -59,7 +59,7 @@ pond.setOptions({
     }
     labelButtonCopyPath: 'Custom label', // by default 'Copy uploaded file path'
     copyRelativePath: true, // by default false
-    alertCopyPath: true // by default false
+    alertCopyPath: true // by default true
  });
 ```
 
